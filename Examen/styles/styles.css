@@ -1,5 +1,8 @@
 body {
   overflow: auto;
+  background-image: url('/assets/R.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .main-navbar .navbar{
@@ -18,7 +21,7 @@ body {
 .main-navbar .form-control{
   margin-left: 120px;
   margin-right: 30px;
-  width: 900px; 
+  width: 900px;
   background-color: rgba(223, 220, 220, 0.466);
   border-radius: 20px;
   border-width: 0;
@@ -43,7 +46,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px; 
+  height: 100px;
 }
 
 .second-navbar .nav-link{
@@ -52,7 +55,7 @@ body {
 .second-navbar .nav-link:hover{
   background: blue;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
 }
 .nav-item-balance .nav-link {
   color: black;
@@ -65,13 +68,18 @@ body {
 .nav-item-usuario .nav-link{
   color: black;
 }
-
+.gradient {
+  background: linear-gradient(to right, rgb(102, 207, 228), rgb(125, 115, 236));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .main-header{
   align-items: center;
   text-align: center;
   font-size: 100px;
   font-weight: bold;
   font-display: block;
+  
 }
 .button {
   display: inline-block;
@@ -84,22 +92,25 @@ body {
   color: #fff;
   background-color: rgb(108, 105, 250);
   border: none;
-  border-radius: 15px;
+  border-radius: 50px;
 }
 .bloque-izquierdo{
   background-color: rgb(155, 152, 252);
   border-radius: 50px;
-  height: 400px;
-  width: 280px;
+  height: 625px;
+  width: 470px;
   margin: 0 auto;
   color : white;
   padding: 30px;
+  font-size: 25px;
 }
 .bloque-izquierdo h1 {
-  margin-top: 60px;
+  margin-top: 150px;
+  font-size: 60px;
 }
 .bloque-izquierdo h4 {
-  margin-top: 90px;
+  margin-top: 170px;
+  font-size: 30px;
 }
 
 .estrellas .fas.fa-star {
@@ -112,14 +123,14 @@ body {
 .bloque-centroarriba{
   background-color: rgb(170, 151, 196);
   border-radius: 50px;
-  height: 160px;
+  height: 270px;
   width: 100px;
   margin: 0 auto;
 }
 .bloque-centroabajo{
   background-color: rgb(170, 151, 196);
   border-radius: 50px;
-  height: 160px;
+  height: 270px;
   width: 100px;
   margin: 0 auto;
   color: white;
@@ -127,31 +138,79 @@ body {
 .bloque_blanco{
   background-color: white;
   border-radius: 50px;
-  height: 160px;
+  height: 270px;
   width: 100px;
   margin: 0 auto;
+  visibility: hidden;
 }
 .bloque-carne{
   background-color: rgb(239, 239, 239);
   border-radius: 50px;
-  height: 160px;
+  height: 270px;
   width: 100px;
   margin: 0 auto;
 }
 .bloque-cafe{
   background-color:rgb(233, 231, 253);
   border-radius: 50px;
-  height: 320px;
+  height: 540px;
   width: 100px;
+  font-size: 25px
+}
+.bloque-cafe h1{
+  margin-top: 150px;
+  font-size: 60px;
+}
+.bloque-derecho{
+  background-color: rgb(53, 110, 224);
+  border-radius: 50px;
+  height: 625px;
+  width: 470px;
+  margin: 0 auto;
+  color : white;
+  padding: 30px;
+  position: relative;
+}
+.bloque-derecho h4 {
+  font-size: 40px;
 }
 .clock{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70px;
+  height: 100px;
 }
 .porcentage {
   font-weight: bold;
+  font-size: 50px;
+}
+.final-bloque {
+  position: absolute;
+  padding-top: 300px;
+  font-size: 30px;
+}
+.linea-blanca {
+  width: 90%;
+  height: 2px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bloque-centroarriba, .bloque-centroabajo {
+  background-image: url('https://blog.foto24.com/wp-content/uploads/2019/02/2.2-683x1024.jpg'); /* Reemplaza con la ruta a tu imagen */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bloque-centroarriba {
+  background-position: top;
+}
+
+.bloque-centroabajo {
+  background-position: bottom;
+}
+.Learn{
+  color: white;
 }
 
 
@@ -168,9 +227,7 @@ body {
   background-color: yellow;
 }
 
-.bloque-naranja{
-  background-color: orange;
-}
+
 .bloque-rosado{
   background-color: pink;
 }
@@ -190,12 +247,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.gradient {
-  background: -webkit-linear-gradient(right, rgb(104, 205, 226), rgb(126, 115, 234));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.linea-blanca {
-  border-bottom: solid 1px white;
 }
