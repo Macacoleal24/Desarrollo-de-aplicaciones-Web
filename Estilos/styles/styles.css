@@ -1,0 +1,19 @@
+.box-model{
+    background-color: #df3165;
+    margin: 90px;
+    padding: 100px;
+    height: 200px;
+    width: 300px;
+}
+
+.perro{
+    color: magenta;
+}
+
+input[type="text"]{
+    border: 2px solid red;
+}
+
+.perro,.caballo{
+    color: red;
+}

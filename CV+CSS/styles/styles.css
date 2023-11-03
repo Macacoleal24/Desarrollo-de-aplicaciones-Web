@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(165, 104, 160);
+    font-family: 'Pixelify Sans', sans-serif;
+}
+h1{
+    color: rgb(68, 235, 143);
+    text-align: center;
+    background-color: rgb(165, 104, 160);
+}
+
+p{
+    color: rgb(25, 62, 224);
+    text-align: center;
+    background-color: rgb(152, 197, 101);
+}
+img{
+    border: 2px solid #000;
+    border-radius: 50%
+}
+.iframes-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  

@@ -1,0 +1,21 @@
+Realiza tu CV en HTML
+
+Asegúrate de incluir por lo menos:
+Nombre completo
+Titular
+Fotografía
+Semblanza o perfil profesional
+Educación (últimos 2 niveles académicos)
+Experiencia laboral (mínimo 2 trabajos): Si no has trabajado puedes incluir algún proyecto en el que hayas participado, un servicio social, intercambio, etc.
+Habilidades y conocimiento
+Datos de contacto: correo, alguna red social, ubicación (solo ciudad)
+2. Emplea todo lo que has aprendido sobre HTML
+
+Estructura básica del documento HTML
+Por lo menos las etiquetas: p, h1, h2, h3, h4, a, img, iframe, br, ul, li,
+No olvides incluir 1 icono, 1 emoji, ponerle favicon a la página y que el título de la misma (en la etiqueta meta) sea tu nombre o CV + tu nombre.
+3. Ve un poco más allá
+
+Incluye una sublista
+Haz que al dar clic en tu email se abra la app de correo y tenga un mensaje listo para ser enviado.
+Investiga cómo hacer una tabla y pon algún contenido ahí, por ejemplo la información de contacto.

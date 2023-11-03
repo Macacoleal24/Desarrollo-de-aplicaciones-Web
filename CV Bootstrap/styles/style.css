@@ -1,0 +1,50 @@
+.color-container {
+    background-color: #2A2A2A;
+}
+
+.color-container2 {
+    background-color: white;
+}
+
+
+.color-texto-blanco {
+    color: white;
+}
+.linea-amarilla {
+    border-bottom: solid 1px yellow;
+}
+
+.bloque-amarillo {
+    background-color: yellow;
+}
+.bloque-amarillo2 {
+    background-color: gold;
+    margin: 90px;
+    padding: 100px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bloque-gris {
+    background-color: #292B2F;
+}
+
+
+.linea {
+    background-color: gray;
+    height: 2px;
+    flex: 1; 
+    margin-right: 10px;
+}
+
+.progress-bar {
+    height: 8px; /* Altura de la barra de progreso */
+    background-color: gray; /* Color de fondo de la barra de progreso */
+    width: 70%; /* Ancho de la barra de progreso */
+    margin-top: 10px; /* Espacio entre el párrafo y la barra de progreso */
+}
