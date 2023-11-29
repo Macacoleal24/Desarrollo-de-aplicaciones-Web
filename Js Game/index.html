@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>We have selected a random number between 1 and 100. Try to guess it in 10 turns or less</p>
+    <p>We will tell you if the number is higher or lower</p>
+    <label for="number">Guess the number</label>
+    <input type="text" name="" id="number">
+    <input type="button" onclick="start_game()" id="submit" value="Send answer">
+    <button id="resetButton" style="display: none;">Reiniciar Juego</button>
+
+    <p>Last try <span id="try"></span></p>
+    <p>Remaining attempts: <span id="attempts"></span></p>
+    <div id="result" style="display: none;"></div>
+    <button id="start" > Start game</button>
+    <script src="script/index.js"></script>
+</body>
+</html>

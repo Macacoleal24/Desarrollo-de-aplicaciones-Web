@@ -1,8 +1,5 @@
 body {
   overflow: auto;
-  background-image: url('/assets/R.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .main-navbar .navbar{
@@ -213,38 +210,145 @@ body {
   color: white;
 }
 
-
-
-
-
-.bloque-azul{
-  background-color: blue;
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
-.bloque-verde{
-  background-color: green;
+td {
+  width: 33.33%;
+  padding: 10px;
+  vertical-align: top;
 }
-.bloque-amarillo{
-  background-color: yellow;
+.box_General {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+
+}
+.box {
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-green-fresh-flat-running-banner-background-image_229447.jpg);
+  border: 1px solid #ccc;
+  padding: 60px 10px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  width: 90%; /* Updated width value */
+  margin: 10px 0;
+}
+.box_S {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190622/ourmid/pngtree-sports-fitness-flat-wind-small-fresh-banner-background-image_227143.jpg);
+  border: 1px solid #ccc;
+  padding: 60px 10px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  width: 90%; /* Updated width value */
+  margin: 10px 0;
+}
+.box2 {
+  img: url(https://moblum.com/media/catalog/product/cache/dc1ae9f78f90a12f86cb0d1e3aec3fb2/d/e/decoracion-lampara-colgante-negro-kles-dec63480s1-fw-1.png);
+  border: 1px solid #ccc;
+  padding: 107px 5px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  width: 90%;
+  margin: 10px 10px;
+  background-position: bottom; /* Agregado */
+  background-size: 73%; /* Agregado */
+}
+.box2_0 {
+  border: 1px solid #ccc;
+  padding: 165px 5px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  width: 90%; /* Updated width value */
+  margin: 10px 10px;
+}
+.box3 {
+  background-image: url(https://www.kamir.es/231259/silla-midukas-terciopelo-naranja-y-azul-con-tirador-dorado.jpg);
+  background-size: 140%; /* Updated background-size value */
+  background-position: center; /* Added property */
+  border: 1px solid #ccc;
+  padding: 227px 10px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  width: 80%;
+  margin: 10px 10px;
+}
+.box4 {
+  background-image: url(https://www.portobellostreet.es/imagenes_muebles/04032021-121938silla-verde-oscura-ivonne-terciopelo1.jpg);
+  background-size: contain;
+  background-position: right; /* Added property */
+  border: 1px solid #ccc;
+  padding: 70px 200px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  width: 100%; /* Updated width value */
+  margin: 0 0;
 }
 
-
-.bloque-rosado{
-  background-color: pink;
-}
-
-
-.under-title{
-  font-size: 15px;
+.center-text {
   text-align: center;
-  color: gray;
 }
-.btn-primary {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 25px;
+.bottom-text{
+  text-align: bottom;
 }
-.all-product {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 50px; /* Updated padding value */
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
+
+.btn:hover {
+  background-color: #0062cc;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  background-color: #005cbf;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(0);
+}
+
+body {
+  text-align: center;
+}
+.btn1 {
+  background-color: #635ef7;
+  color: #fff;
+  border: none;
+  padding: 4px 4px; /* Updated padding value */
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn1:hover {
+  background-color: lightgray;
+}
+
+
+  
+  .btn2 {
+      background-color: #e6e5ff;
+      color: #fff;
+      border: none;
+      padding: 4px 4px; /* Updated padding value */
+      border-radius: 15px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+    }
+    
+    .btn2:hover {
+      background-color: lightgray;
+    }
+    @media (max-width: 768px) {
+      td {
+          display: block;
+          width: 100%;
+          }
+        }

@@ -1,0 +1,9 @@
+Gratuito: No necesitas comprar un software o licencia de algún tipo para aprender JavaScript1. Solo necesitas una guía académica, un editor de texto confiable y tu navegador.
+Adaptabilidad: JavaScript se adapta muy bien al programador. Puedes usarlo en todas partes: desde el servidor hasta el navegador, pasando por clientes móviles híbridos.
+Gran demanda de trabajo: Dado que JavaScript es uno de los lenguajes de programación más utilizados a nivel mundial, hay una gran demanda de desarrolladores de JavaScript en el mercado laboral.
+
+React: Te permite crear interfaces de usuario (UI) complejas e interactivas. Los componentes de React son pequeñas piezas de la interfaz de usuario que puedes combinar para crear interfaces de usuario sofisticadas
+Vue.js: Es una librería para construir interfaces de usuario
+Bideo.js: Es una librería fácil de usar que facilita la adición de videos de fondo a tu sitio web.
+Anime.js: Es una librería de animación JavaScript ligera y flexible.
+React-vis: Es una librería de visualización de datos creada y mantenida por Uber
